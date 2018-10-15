@@ -1,0 +1,52 @@
+{
+    "mode": "history",
+    "base": "/",
+    "routes": [
+        {
+            "path": "/appshell",
+            "name": "appshell",
+            "meta": {}
+        },
+        {
+            "path": "/detail/:id",
+            "name": "detailId",
+            "meta": {}
+        },
+        {
+            "path": "/",
+            "name": "index",
+            "meta": {}
+        },
+        {
+            "path": "/liangsheng/:id",
+            "name": "liangshengId",
+            "meta": {}
+        },
+        {
+            "path": "/meirenxinji/:id",
+            "name": "meirenxinjiId",
+            "meta": {}
+        },
+        {
+            "path": "/meirenxinjiall",
+            "name": "meirenxinjiall",
+            "meta": {}
+        },
+        {
+            "path": "/yanxigonglue/:id",
+            "name": "yanxigonglueId",
+            "meta": {}
+        },
+        {
+            "path": "/yanxigonglueall",
+            "name": "yanxigonglueall",
+            "meta": {}
+        },
+        {
+            "path": "/error",
+            "name": "error",
+            "meta": {},
+            "alias": "*"
+        }
+    ]
+}
